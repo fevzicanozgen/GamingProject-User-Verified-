@@ -4,14 +4,14 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GamingProject.Concerte
+namespace GamingProject.Concrete
 {
     class SaleManager : ISaleService
     {
         public void Add(User user, Game game, Campaign campaign)
         {
-            Console.WriteLine("Game Added =  " + game.GameName  +user.FirstName + user.LastName + campaign.CampaignType);           
-                }
+            Console.WriteLine("Game Added =  " + game.GameName + user.FirstName + user.LastName + campaign.CampaignType);
+        }
 
         public void Delete(User user, Game game, Campaign campaign)
         {

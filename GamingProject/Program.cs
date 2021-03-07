@@ -1,5 +1,5 @@
 ﻿using GamingProject.Adapter;
-using GamingProject.Concerte;
+using GamingProject.Concrete;
 using GamingProject.Entities;
 using System;
 

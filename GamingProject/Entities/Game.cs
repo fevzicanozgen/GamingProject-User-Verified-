@@ -1,5 +1,5 @@
 ﻿using GamingProject.Abstract;
-using GamingProject.Concerte;
+using GamingProject.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
